@@ -1,0 +1,76 @@
+\documentclass[a5paper,DIV=12,BCOR=9mm,headsepline,headings=small,cleardoubleempty,10pt]{scrbook}
+\usepackage{scrpage2}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage[english]{babel}
+\usepackage[raiselinks=true,
+bookmarks=true,
+bookmarksopenlevel=1,
+bookmarksopen=true,
+bookmarksnumbered=true,
+hyperindex=true,
+plainpages=false,
+pdfpagelabels=true,
+pdfborder={0 0 0.5}
+]{hyperref}
+
+% Meta data
+\newcommand{\booktitle}{The Outreach Cookbook}
+\newcommand{\booksubtitle}{Grow Your Free Software Community!}
+\newcommand{\bookyear}{2014}
+\newcommand{\bookisbn}{TODO}
+\newcommand{\bookurl}{TODO}
+\newcommand{\bookauthors}{Asheesh Laroia, Deborah Nicholson, Lydia Pintscher, Karen Rustad, Marina Zhurakhinskaya}
+
+\hypersetup{
+  pdfauthor={\bookauthors},
+  pdftitle={\booktitle},
+  pdfsubject={Open Source, Free Software, Outreach},
+  pdfkeywords={Open Source, Free Software, Outreach},
+  pdflang=en,
+  colorlinks,
+  linkcolor=black,
+  anchorcolor=black,
+  filecolor=black,
+  urlcolor=black,
+  citecolor=black,
+  bookmarksnumbered=true,
+  pdfpagelayout=TwoColumnRight
+}
+
+\usepackage{xmpincl}
+  \includexmp{outreach-cookbook}
+\usepackage{pdfpages}
+\hyphenation{}
+
+\pagestyle{scrheadings}
+\ihead[]{\headmark}
+\ohead[]{\pagemark}
+\ifoot[]{ }
+\ofoot[]{ }
+
+% Use a nicer-Looking design for the TOC
+\usepackage{tocstyle}
+\usetocstyle{KOMAlike}
+
+% Avoid typographical unpleasantries
+\clubpenalty = 10000
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+% Avoids line-overshooting at the cost of "Word-like" spacing
+\setlength{\emergencystretch}{0.25em}
+
+\begin{document}
+\frontmatter
+%\input{topmatter}
+%\input{foreword}
+%\input{thankyou}
+\tableofcontents
+\mainmatter
+%\input{introduction}
+%\input{closingwords}
+\backmatter
+\end{document}
