@@ -1,0 +1,93 @@
+\chapter{In-person events}
+
+“Education is the most powerful weapon which you can use to change the world.” -- Nelson Mandela\todo{make this a proper quote}
+
+There are different types of outreach events you can do. This chapter discusses a few of them. 
+
+\section{Newcomer-oriented in-person sprints to grow a free software project}
+\subsection{What it is}
+This is a contribution (code, or otherwise) sprint specifically geared towards newcomers.
+
+\subsection{What you need for it}
+You need a few volunteers who are willing to test and retest the documentation on different operating systems at least a week in advance of the event. You’ll also need plenty of patient onsite volunteers, preferably with collective experience on a few different platforms. Make sure to publicize your event and what participants can expect to get out of the experience. Lastly, consider providing snacks or meals; you can often find sponsorship for those costs.
+
+\subsection{Where it works}
+If you have a project where enthusiastic newcomers are willing to sign up.
+
+\subsection{What to watch out for}
+Incomplete (or incorrect!) documentation, too many dependencies or slow bandwidth making software downloads take up an inordinate amount of your allotted time. Load any necessary software onto a few thumbdrives and/or send participants a download link a few days before the sprint. Poor attendance can also be a bummer after you’ve done all this work. Have people sign-up, thank them for their sign-up and then send a reminder out a few days before the event saying how much you’re looking forward to their participation. Talk to them a few days after their contribution as well.
+
+\subsection{In more depth}
+In person events like this can be tricky but can also be hugely rewarding.
+
+One aspect to consider is how much preparation to provide in terms of entry-level tasks. We believe you should spend as much time as you can on that! Take at least a few hours before the event to hand-pick tasks. Aim for tasks that newcomers could achieve in 30 minutes, or maybe even less time, and provide hints to the attendees as to how to address the issue. You can see an example of those hints within the Python package called pandas\footnote{\url{https://github.com/pydata/pandas/issues/2502}}\todo{do not rely on this link to understand the text. incorporate in document}.
+
+Another question to consider is the ratio of helpers to learners. You will need volunteers to both address development environment problems on people’s computers and give walkthroughs of the codebase. For something as active as a sprint, we recommend a ratio of 3-4 working attendees per 1 instructor; you can effectively decrease the ratio by putting attendees into groups.
+
+If contributors are not familiar with the project in question, it helps to have a maintainer give an introductory lecture (with hands-on exercises) demonstrating the tool.
+
+For attendees’ development environment, the most important thing is that you know up-front how much RAM people will need, how much storage they will need, and how much time it will take set up the development environment. Test it with a stopwatch.
+
+We do recommend (and urge) creating a walkthrough of how to get a development environment set up, and to provide instructions for all the platforms you reasonably expect attendees to bring. Frequently, this is Windows, Mac OS, and a common Linux distribution. Keep in mind that attendees have probably not kept their operating systems up to date. The only way to be sure your instructions work is to ask someone using that platform to “play-test” the document, going from start to finish. If you need help writing these, reach out to the OpenHatch events list\footnote{\url{http://lists.openhatch.org/mailman/listinfo/events}}.
+
+Typically, it is not recommended to ask attendees to develop within a virtual machine image they must run on their own computers. Asking users to download 4 gigabytes of operating system so they can run your 30 MB app is a lot to ask, and it will usually cause long delays while people install the virtual machine software, download your image, and wait for the OS and app to boot. Using tools that do not create a full separate operating system (for example, virtualenv with Python and bundler with Ruby) can be a good idea. Keep in mind, however, that even those tools can be hard to install. In the case of an in-person sprint, if something is hard to install, it means your helpers will spend hours fixing someone’s development environment when they wished they were helping people develop new code as part of the project community.
+
+Many attendees will arrive having done either no setup or having set things up in a different way that may cause confusion for helpers, so it can be a great idea to set aside mandatory laptop setup time.
+
+We recommend creating a signup form so you have a sense of how many people will attend. To go from signup numbers to an estimate of actual attendees, you can use a rough estimate of a little over 50\%\footnote{\url{http://nedbatchelder.com/blog/201210/pizzapy.html}}. You can increase these numbers by sending pre-event reminder emails and asking people to un-RSVP if they can’t attend.
+
+We also recommend taking great photographs! It can be great to have a snapshot of the whole group, even though you may have to break everyone’s attention to take it. Additionally, snapshots of people while working on a task, or helping each other, really bring a sense of community to your photo gallery. But do make sure people are okay with being photographed! We also recommend creating an exit survey so you can get a sense of what to improve next time.
+
+Take a look:\todo{make this a proper list}
+Sample laptop setup guide (for a sprint on “pandas”, a Python package)\footnote{\url{https://github.com/svaksha/PyData-Workshop-Sprint/wiki/laptop\%20setup}}
+Wrap-up blog post from the same sprint\footnote{\url{https://openhatch.org/blog/2012/pandas-pydata-workshop-in-nyc/}}
+Mandatory laptop setup time in the Boston Python Workshop\footnote{\url{https://openhatch.org/wiki/Boston_Python_Workshop_7/Friday}}
+
+\section{Introductory programming workshops to grow a language user community}
+\subsection{What it is}
+This is a 1.5 day workshop for people with zero or very little programming experience. It is often used to increase numbers and/or diversity in an existing local programming language community, like a meetup. 
+
+\subsection{What you need for it}
+Like the above events, you’ll need plenty of patient volunteers. When everyone is a beginner, a single volunteer for every six participants is ideal; less than one to eight will be difficult. 
+
+\subsection{Where it works}
+Places with a high density of potential volunteers. As a strategy for growth, it works best when you have an existing community to bring people into once they‘ve completed the 1.5 day workshop. Learning programming from scratch can be overwhelming. Without a clear plan for what to do after the beginner workshop, participants will find it hard to build on the the intense 1.5 workshop.
+
+\subsection{What to watch out for}
+Each group of beginners will be different. It’s pretty easy for a few people to fall behind while the rest of the room is happily on task or understanding the lecture. Be sure to provide multiple ways for participants to get clarification; the peace sign means “come over but don’t stop the lecture” while a hand up means “I have a question.” During workshops people are encouraged to talk to each other and get help from their neighbors. Provide handouts or “cheat” sheets to go along with your material. 
+
+\section{Project nights}
+\subsection{What it is}
+This is a beginner-friendly night for a specific programming language. 
+
+\subsection{What you need for it}
+You will need an existing community of coders familiar with the language. Additionally, you will need a public meeting space that is easy to get to and easy to move around in. Snacks are always a good idea too!
+
+\subsection{Where it works}
+Especially as a follow-up to a programming language specific workshop. It can also be used as a trial run for new outreach-interested volunteers before committing to the work involved with running a beginner’s programming workshop.
+
+\subsection{What to watch out for}
+Make sure you have resources or projects for people who are still essentially beginners. You’ll also want to have a few people who are willing to help people set up their machines, download tools, find their command line, etc. 
+
+\subsection{In more depth}
+Draft an invitation that specifically encourages beginners. Send it to any previously identified new people, like programming language specific workshop alumnae or people who asked about a beginner’s workshop but weren’t able to attend. 
+
+At the project night, welcome everyone, point out a “beginner’s corner”, and let people announce projects they have that others might want to work on or problems they’re having that they need help with. Post links for introductory resources and potential beginner projects.
+
+Have a few people who are willing to circulate and see how people are doing. Make sure the beginner’s corner gets plenty of attention. If your meetup group has an IRC channel, post that and let people know they can ask any non-urgent questions in there.  
+
+\subsection{Further reading}
+OpenHatch wiki guide to Python project nights\footnote{\url{https://openhatch.org/wiki/Project_night}}
+
+\section{Introductory free software contribution workshops for students}
+\subsection{What it is}
+This is a one or two day session where computer science students can become familiar with contributing to free software. Typically they are a combination of lecture and hands-on practice with free software tools and aim for every attendee to contribute a real patch to an existing free software community.
+
+\subsection{What you need for it}
+You need one or two people willing to field students through development environment problems, and at least one lecturer willing to discuss topics important to free software. You also need access to a university or college, perhaps through a computer club. You also need a collection of high-quality bitesize bugs in projects that you can help students address. We recommend at least one helper per six students.
+
+\subsection{Where it works}
+It can work wherever you can find attendees and teachers! It’s often easiest to find teaching volunteers in big cities.
+
+\subsection{What to watch out for}
+This is an event whose goal is to give students an overview of free software as a whole, so you want to have more than just one project be a part of this. Also make sure that the instructors are well prepared. A workshop requires a considerable amount of preparation time from them. We recommend basing your first such event on another program you like, such as OpenHatch’s Open Source Comes to Campus\footnote{{http://campus.openhatch.org}}, and learning from their curriculum.
