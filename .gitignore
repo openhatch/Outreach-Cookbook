@@ -2,6 +2,7 @@
 *.acr
 *.alg
 *.aux
+*.backup
 *.bbl
 *.blg
 *.dvi
@@ -31,4 +32,5 @@
 *.toc
 *.vrb
 *.xdy
+*.xmpi
 *.tdo
