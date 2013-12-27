@@ -13,6 +13,7 @@
 *.ilg
 *.ind
 *.ist
+*.kilepr
 *.lof
 *.log
 *.lot
@@ -22,6 +23,7 @@
 *.nav
 *.nlo
 *.out
+*.pdf
 *.pdfsync
 *.ps
 *.snm
